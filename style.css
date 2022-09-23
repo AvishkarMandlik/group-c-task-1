@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccf2ff;
+    background: arial;
+}
+.navbar ul{
+    list-style: none;
+    background: #999999;
+    position: fixed;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;  
+}
+ul:hover{
+        font: bold;      
+}
+.navbar li{
+        margin-right: 90px;
+        margin-left: 50px;   
+}
+.navbar a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 25px;
+    width: 100px;
+    display: block;
+    padding: 23px 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;   
+}
+.navbar a:hover{
+    background: #d9d9d9;
+    pointer-events: painted;
+}
+.maincontainer{
+    padding-top: 67px;
+    display: block;
+    background-color: white;
+}
+.maincontainer:hover{
+    background-color: #ffb3b3;
+}
+.subcontainer{
+    padding-left: 70px;
+    padding-top: 2px;
+    background-color:#ffb3b3  ;  
+}
+.mainimg{
+    float: right;
+    height: 300px;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+.mainimg:hover{
+    box-shadow: 20px 20px 25px 20px #666666 ;
+    border-radius: 50px;
+    padding: 50px;
+    padding-top: 80px;
+    background-image: url("bg-img2-task-1.jpg");
+}
+.btn1{
+    background-color:  #ff661a;
+    margin: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding-right: 30px;
+    border-radius: 22px;    
+}
+.btn1:hover{
+     background-color:#ff884d ;
+     cursor: pointer;
+     color: white;
+     border: solid 1px white;
+     box-shadow: 3px 6px 5px 4px black;
+}
+.flex{
+    height:300px;
+    width:250px;
+    background-color:  #03fcd7;
+    margin:5px;
+    font-size:px;
+    padding-bottom: 70px;
+    border-radius: 7px;
+    border: solid 2px black;
+    justify-content: space-between;
+} 
+.boat{
+    width: 30;
+    width: 200px;
+    margin-bottom: 80pxpx ;
+}
+.watch{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    background-color: #ccf2ff;
+
+}
+.flex:hover{
+    background-color: #80bfff;
+    transition-property: 0.5;
+}
+p{
+    text-align: center;
+}
+.btn2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 27px;
+    border-radius: 15px;
+    background-color: #1a1aff;
+    font-size: 20px;
+    color: aliceblue;
+}
+.btn2:hover{
+    background-color: #00802b;
+    cursor: pointer;
+    border: solid 2px #334d4d;
+    box-shadow: 3px 4px 5px 4px whitesmoke;
+}
